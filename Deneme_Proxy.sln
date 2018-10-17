@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deneme_CastleProxy", "Deneme_CastleProxy\Deneme_CastleProxy.csproj", "{C04AAB4B-AC7E-4444-BDBE-8E670EC10B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme_DynamicObject", "Deneme_DynamicObject\Deneme_DynamicObject.csproj", "{6821EC4D-1833-4E18-B49E-4C619A288156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme_RealProxy", "Deneme_RealProxy\Deneme_RealProxy.csproj", "{40E077F8-A86B-4DE3-BAE9-7777728A1442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme_DispatchProxy", "Deneme_DispatchProxy\Deneme_DispatchProxy.csproj", "{B684ABEE-E713-411A-8725-B448F349AB7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme_DispatchProxy_Decorate", "Deneme_DispatchProxy_Decorate\Deneme_DispatchProxy_Decorate.csproj", "{2F54C3F8-3FFB-4A9E-BEFE-DAF8C7F96B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme_ProxyV1", "Deneme_ProxyV1\Deneme_ProxyV1.csproj", "{D0C89721-AA8E-4F4C-949D-7DB021DFB687}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04AAB4B-AC7E-4444-BDBE-8E670EC10B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04AAB4B-AC7E-4444-BDBE-8E670EC10B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04AAB4B-AC7E-4444-BDBE-8E670EC10B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04AAB4B-AC7E-4444-BDBE-8E670EC10B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6821EC4D-1833-4E18-B49E-4C619A288156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6821EC4D-1833-4E18-B49E-4C619A288156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6821EC4D-1833-4E18-B49E-4C619A288156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6821EC4D-1833-4E18-B49E-4C619A288156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E077F8-A86B-4DE3-BAE9-7777728A1442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E077F8-A86B-4DE3-BAE9-7777728A1442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E077F8-A86B-4DE3-BAE9-7777728A1442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E077F8-A86B-4DE3-BAE9-7777728A1442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B684ABEE-E713-411A-8725-B448F349AB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B684ABEE-E713-411A-8725-B448F349AB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B684ABEE-E713-411A-8725-B448F349AB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B684ABEE-E713-411A-8725-B448F349AB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F54C3F8-3FFB-4A9E-BEFE-DAF8C7F96B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F54C3F8-3FFB-4A9E-BEFE-DAF8C7F96B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F54C3F8-3FFB-4A9E-BEFE-DAF8C7F96B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F54C3F8-3FFB-4A9E-BEFE-DAF8C7F96B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C89721-AA8E-4F4C-949D-7DB021DFB687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C89721-AA8E-4F4C-949D-7DB021DFB687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C89721-AA8E-4F4C-949D-7DB021DFB687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C89721-AA8E-4F4C-949D-7DB021DFB687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
